@@ -1,0 +1,1 @@
+// AgcCalvingPercentage: ES Module

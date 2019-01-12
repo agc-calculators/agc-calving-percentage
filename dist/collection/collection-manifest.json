@@ -1,0 +1,127 @@
+{
+  "components": [
+    {
+      "tag": "agc-calving-percentage",
+      "dependencies": [],
+      "componentClass": "AgcCalvingPercentage",
+      "componentPath": "components/agc-calving-percentage/agc-calving-percentage.js",
+      "styles": {},
+      "props": [
+        {
+          "name": "mode",
+          "type": "String",
+          "attr": "mode"
+        },
+        {
+          "name": "socket",
+          "type": "String",
+          "attr": "socket"
+        },
+        {
+          "name": "tract",
+          "type": "String",
+          "attr": "tract"
+        }
+      ],
+      "states": [
+        {
+          "name": "cache"
+        },
+        {
+          "name": "currentStep"
+        },
+        {
+          "name": "results"
+        },
+        {
+          "name": "submitted"
+        }
+      ],
+      "events": [
+        {
+          "event": "agcCalculated"
+        },
+        {
+          "event": "agcStepChanged"
+        }
+      ]
+    },
+    {
+      "tag": "agc-calving-percentage-inputs",
+      "dependencies": [],
+      "componentClass": "AgcCalvingPercentageInputs",
+      "componentPath": "components/agc-calving-percentage-inputs/agc-calving-percentage-inputs.js",
+      "styles": {},
+      "props": [
+        {
+          "name": "socket",
+          "type": "String",
+          "attr": "socket"
+        }
+      ],
+      "states": [
+        {
+          "name": "data"
+        },
+        {
+          "name": "ready"
+        }
+      ]
+    },
+    {
+      "tag": "agc-calving-percentage-progress",
+      "dependencies": [],
+      "componentClass": "AgcCalvingPercentageProgress",
+      "componentPath": "components/agc-calving-percentage-progress/agc-calving-percentage-progress.js",
+      "styles": {},
+      "props": [
+        {
+          "name": "socket",
+          "type": "String",
+          "attr": "socket"
+        }
+      ],
+      "states": [
+        {
+          "name": "currentStep"
+        }
+      ]
+    },
+    {
+      "tag": "agc-calving-percentage-results",
+      "dependencies": [],
+      "componentClass": "AgcCalvingPercentageResults",
+      "componentPath": "components/agc-calving-percentage-results/agc-calving-percentage-results.js",
+      "styles": {},
+      "props": [
+        {
+          "name": "socket",
+          "type": "String",
+          "attr": "socket"
+        }
+      ],
+      "states": [
+        {
+          "name": "data"
+        },
+        {
+          "name": "ready"
+        }
+      ]
+    },
+    {
+      "tag": "agc-calving-percentage-results-placeholder",
+      "dependencies": [],
+      "componentClass": "AgcCalvingPercentageResultsPlaceholder",
+      "componentPath": "components/agc-calving-percentage-results-placeholder/agc-calving-percentage-results-placeholder.js",
+      "styles": {}
+    }
+  ],
+  "collections": [],
+  "compiler": {
+    "name": "@stencil/core",
+    "version": "0.15.2",
+    "typescriptVersion": "2.9.2"
+  },
+  "bundles": []
+}

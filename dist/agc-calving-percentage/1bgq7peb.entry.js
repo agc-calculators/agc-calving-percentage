@@ -1,0 +1,2 @@
+/*! Built with http://stenciljs.com */
+const{h:a}=window.AgcCalvingPercentage;class e{render(){return a("section",null,a("ul",{class:"agc-results-placeholder"},a("li",null,a("h2",{"data-i18n":"results.calving-percentage"},"Calving Percentage"),(()=>a("span",null,a("i",{class:"mark"})," ",a("i",{class:"mark"})," ",a("i",{class:"mark"})," ",a("i",{class:"mark"})))())))}static get is(){return"agc-calving-percentage-results-placeholder"}}export{e as AgcCalvingPercentageResultsPlaceholder};

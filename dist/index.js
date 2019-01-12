@@ -1,0 +1,1 @@
+// AgcCalvingPercentage: CommonJS Main
